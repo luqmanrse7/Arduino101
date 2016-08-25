@@ -1,5 +1,8 @@
 /*
- *AUTO HEADLIGHT 101 V1.0a 
+ iOnStreet V1.0a
+ uses infrared emitter and detector to check the presence of a phone
+ calibrate 1st without phone then with phone *stored in eeprom*
+ buzzer to alert the driver
 */
 #include <EEPROM.h>                               //Store data when vehicle is turn off.
 int address = 512;                                //Setting the location for threshold values to be stored.
